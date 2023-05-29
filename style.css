@@ -1,0 +1,67 @@
+header {
+	
+}
+
+main{
+	margin: 0 auto;
+}
+
+.caixa-grade-aula{
+	margin: 0 120px;
+}
+
+
+table{
+	border-collapse: collapse;  
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px; /* 8 pra cima e baixo, 15 para os lados */
+}
+
+ tr:hover {
+	background-color: #ddd;
+}
+
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+
+.cab-login{
+	text-align: left;
+}
+
+.cad-dias-semana {
+	text-align: left;
+}
+
+
+.duracao{
+	text-align: center;
+}
+
+.dias-semana{
+	text-align: left;
+}
+
+.login {
+ 	text-align: left;
+ }
+
+.licenca {
+	text-align: center;
+}
+
+.licenca.ativo{ 
+	background: #11d828;
+ }
